@@ -1,5 +1,5 @@
 {
-  "version": "2.4.0-RC1",
+  "version": "2.4.0",
   "summary": {
     "title": "CMS User Registration",
     "owner": "jiji",
@@ -15,7 +15,7 @@
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
-        "version": "2.4.0-RC1",
+        "version": "2.4.0",
         "cells": []
       }
     ],
