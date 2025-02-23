@@ -20,7 +20,7 @@
           {
             "position": {
               "x": -920,
-              "y": 160
+              "y": 125
             },
             "size": {
               "width": 200,
@@ -138,8 +138,8 @@
           },
           {
             "position": {
-              "x": -1280,
-              "y": 220
+              "x": -1300,
+              "y": 160
             },
             "size": {
               "width": 230,
@@ -254,8 +254,8 @@
           },
           {
             "position": {
-              "x": -540,
-              "y": 90
+              "x": -525,
+              "y": 70
             },
             "size": {
               "width": 160,
@@ -371,13 +371,13 @@
               "threats": []
             },
             "children": [
-              "1c937674-96f9-4443-aba1-e7a34b4de5a7"
+              "3351a9ca-27e8-430a-b4ef-d4cd9022db85"
             ]
           },
           {
             "position": {
-              "x": -140,
-              "y": 180
+              "x": -110,
+              "y": 155
             },
             "size": {
               "width": 150,
@@ -528,7 +528,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Enter Registration Details",
+                    "text": "Store Encrypted User Credentials",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -563,21 +563,15 @@
               "protocol": "",
               "threats": []
             },
-            "id": "8c8503de-51d5-498c-beab-b5608cf05cc4",
+            "id": "3dd72d70-5ac4-4b35-9baa-b793f3380629",
             "source": {
-              "x": -1183,
-              "y": 215
+              "x": -1190,
+              "y": 160
             },
             "target": {
               "cell": "1650f72a-f0a0-4e63-af78-d307d48450ab",
               "port": "ba61ed66-2be7-4d4d-868e-f8da630f9445"
-            },
-            "vertices": [
-              {
-                "x": -1020,
-                "y": 190
-              }
-            ]
+            }
           },
           {
             "shape": "flow",
@@ -610,7 +604,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Data Flow",
+                    "text": "Send Registration Data",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -634,7 +628,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Send Registration Data",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -645,92 +639,14 @@
               "protocol": "",
               "threats": []
             },
-            "id": "1c937674-96f9-4443-aba1-e7a34b4de5a7",
+            "id": "731dac92-0de8-4d85-99cf-9d21e5f12e0a",
             "source": {
-              "cell": "4734d5e2-241d-44d8-a1e7-3a457ed2813a",
-              "port": "ba61ed66-2be7-4d4d-868e-f8da630f9445"
+              "x": -821,
+              "y": 125
             },
             "target": {
               "cell": "4734d5e2-241d-44d8-a1e7-3a457ed2813a",
-              "port": "ba61ed66-2be7-4d4d-868e-f8da630f9445"
-            },
-            "vertices": [],
-            "parent": "4734d5e2-241d-44d8-a1e7-3a457ed2813a"
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Store Encrypted User Credentials",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Send Registration Data\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "c2f48d58-9ead-4d71-bcb1-fbb4a12209b3",
-            "source": {
-              "x": -818,
-              "y": 160
-            },
-            "target": {
-              "x": -510,
-              "y": 150
+              "port": "71492cf2-9c47-433c-92b7-fd044e80a9db"
             }
           },
           {
@@ -799,14 +715,133 @@
               "protocol": "",
               "threats": []
             },
-            "id": "d04c804e-ee72-4812-9e75-e0ee6d00a202",
+            "id": "39d12aad-f5e3-424b-857a-cf549fe07e81",
             "source": {
-              "x": -400,
-              "y": 160
+              "x": -365,
+              "y": 195
             },
             "target": {
               "cell": "05117714-6d38-4a47-a713-4075a449a348",
               "port": "f41f783c-f567-40dc-841d-6258ed6b5c00"
+            }
+          },
+          {
+            "position": {
+              "x": -555,
+              "y": 408
+            },
+            "size": {
+              "width": 190,
+              "height": 170
+            },
+            "attrs": {
+              "text": {
+                "text": " Email Service"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "2a4398bb-106b-40b7-bd18-f5207945bc37"
+                },
+                {
+                  "group": "right",
+                  "id": "2aeedcae-02ce-4a04-b31a-be5ec63976da"
+                },
+                {
+                  "group": "bottom",
+                  "id": "c4fb862a-18c8-4199-a760-52e6dd9edc43"
+                },
+                {
+                  "group": "left",
+                  "id": "e37dbbd4-77c0-44da-905b-87ad61a49c3e"
+                }
+              ]
+            },
+            "id": "b9f371f8-5bad-4b23-aa2c-55d57a998f95",
+            "zIndex": 11,
+            "data": {
+              "type": "tm.Process",
+              "name": " Email Service",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
             }
           }
         ]
