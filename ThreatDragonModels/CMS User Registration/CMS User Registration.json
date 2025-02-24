@@ -159,23 +159,29 @@
                   "new": false,
                   "number": 5,
                   "score": "20"
+                },
+                {
+                  "id": "3afd73d6-ea12-4f38-a3cb-20e2272bc76e",
+                  "title": "Spoofing",
+                  "status": "Open",
+                  "severity": "TBA",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 0,
+                "spoofing": 1,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 1,
                 "denialOfService": 1,
                 "elevationOfPrivilege": 0
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           },
           {
@@ -493,6 +499,19 @@
                   "new": false,
                   "number": 8,
                   "score": "25"
+                },
+                {
+                  "id": "81e010bd-554f-4659-a878-c7895c58cf7d",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBA",
+                  "type": "Repudiation",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 15,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -656,103 +675,14 @@
                   "new": false,
                   "number": 12,
                   "score": "20"
-                },
-                {
-                  "id": "3edc5883-dc2c-40e6-be06-25962ccf81d3",
-                  "title": "Tampering",
-                  "status": "Open",
-                  "severity": "Critical",
-                  "type": "Tampering",
-                  "description": "Unauthorized Admin Access",
-                  "mitigation": "Implement least privilege access & monitor logs.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 13,
-                  "score": "25"
                 }
               ],
               "threatFrequency": {
-                "tampering": 3,
+                "tampering": 2,
                 "repudiation": 0,
                 "informationDisclosure": 1,
                 "denialOfService": 0
               }
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Verify Email & Activate Account",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Enter Registration Details",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "3dd72d70-5ac4-4b35-9baa-b793f3380629",
-            "source": {
-              "x": -1190,
-              "y": 160
-            },
-            "target": {
-              "cell": "1650f72a-f0a0-4e63-af78-d307d48450ab",
-              "port": "ba61ed66-2be7-4d4d-868e-f8da630f9445"
             }
           },
           {
@@ -905,7 +835,13 @@
             "target": {
               "cell": "05117714-6d38-4a47-a713-4075a449a348",
               "port": "f41f783c-f567-40dc-841d-6258ed6b5c00"
-            }
+            },
+            "vertices": [
+              {
+                "x": -200,
+                "y": 155
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1288,6 +1224,82 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Enter Registration Details",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Enter Registration Details",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "2f1ee6bb-cd65-44cf-a388-9238ef35c51c",
+            "source": {
+              "x": -1190,
+              "y": 160
+            },
+            "target": {
+              "cell": "1650f72a-f0a0-4e63-af78-d307d48450ab",
+              "port": "ba61ed66-2be7-4d4d-868e-f8da630f9445"
+            }
+          },
+          {
             "position": {
               "x": -555,
               "y": 408
@@ -1308,6 +1320,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1391,7 +1404,6 @@
               ]
             },
             "id": "b9f371f8-5bad-4b23-aa2c-55d57a998f95",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": " Email Service",
@@ -1462,6 +1474,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1545,7 +1558,6 @@
               ]
             },
             "id": "3491fd80-4a9d-424a-876b-f041ed2676be",
-            "zIndex": 12,
             "data": {
               "type": "tm.Process",
               "name": "Login Page",
@@ -1565,6 +1577,6 @@
     ],
     "diagramTop": 1,
     "reviewer": "reshma",
-    "threatTop": 13
+    "threatTop": 15
   }
 }
