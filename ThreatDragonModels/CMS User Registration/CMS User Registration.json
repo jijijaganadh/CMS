@@ -716,7 +716,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Send Registration Data",
+                    "text": "Submit Registration Request",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -740,7 +740,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Send Registration Data",
+              "name": "Submit Registration Request",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1582,7 +1582,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Retry Registration",
+                    "text": "Submit Registration Request",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1664,7 +1664,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Retry Registration",
+                    "text": "Submit Registration Request",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1740,7 +1740,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Retry Registration",
+                    "text": "Submit Registration Request",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
