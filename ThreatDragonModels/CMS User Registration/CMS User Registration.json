@@ -1391,6 +1391,16 @@
             "target": {
               "cell": "7678a9ac-78e9-4742-a1b3-0c819a4bfc59",
               "port": "0fadd199-a3c2-4a54-908b-e08bae149109"
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           },
           {
@@ -1569,56 +1579,6 @@
             "height": 100,
             "zIndex": 10,
             "labels": [
-              "Success/Failure Notification"
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "e9a72c9b-532e-4c6d-a43f-939d862777ac",
-            "source": {
-              "x": -860,
-              "y": 280
-            },
-            "target": {
-              "cell": "7678a9ac-78e9-4742-a1b3-0c819a4bfc59",
-              "port": "0fadd199-a3c2-4a54-908b-e08bae149109"
-            },
-            "vertices": [
-              {
-                "x": -1030,
-                "y": 240
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
               {
                 "markup": [
                   {
@@ -1632,7 +1592,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Verification Failed",
+                    "text": "Retry Registration",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1675,6 +1635,164 @@
             "target": {
               "cell": "5b743ab4-fcd2-4244-bcdb-9f2dbeef97d1",
               "port": "a564599d-be3b-4515-85bd-e1d58d4a346d"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Retry Registration",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Account Activation Failed",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "35d95229-5351-4351-816e-3d19654e2be6",
+            "source": {
+              "x": -824,
+              "y": 529
+            },
+            "target": {
+              "cell": "7678a9ac-78e9-4742-a1b3-0c819a4bfc59",
+              "port": "0fadd199-a3c2-4a54-908b-e08bae149109"
+            },
+            "vertices": [
+              {
+                "x": -1010,
+                "y": 380
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Retry Registration",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Retry Registration",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "266727e6-82cd-4d15-89ac-f0104aa9912c",
+            "source": {
+              "x": -840,
+              "y": 295
+            },
+            "target": {
+              "cell": "7678a9ac-78e9-4742-a1b3-0c819a4bfc59",
+              "port": "0fadd199-a3c2-4a54-908b-e08bae149109"
             }
           },
           {
