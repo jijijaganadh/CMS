@@ -874,7 +874,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Account Successfully Created\n",
+                    "text": "Display Success/Failure Message",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1026,89 +1026,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Response",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Display Success/Failure Message",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "0a3d6088-dec4-4060-8c46-79143d0bd5ca",
-            "source": {
-              "x": -460,
-              "y": 270
-            },
-            "target": {
-              "cell": "1650f72a-f0a0-4e63-af78-d307d48450ab",
-              "port": "9c79a936-aff3-4b99-a039-1f69bfa28c23"
-            },
-            "vertices": [
-              {
-                "x": -660,
-                "y": 270
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Account Successfully Created\n",
+                    "text": "Display Success/Failure Message",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1190,7 +1108,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Account Successfully Created\n",
+                    "text": "Display Success/Failure Message",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1272,7 +1190,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Account Successfully Created\n",
+                    "text": "Display Success/Failure Message",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1354,7 +1272,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Account Successfully Created\n",
+                    "text": "Display Success/Failure Message",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1396,6 +1314,158 @@
             },
             "target": {
               "cell": "4734d5e2-241d-44d8-a1e7-3a457ed2813a",
+              "port": "9b5335d6-6503-4a37-b10a-4fc158b588ab"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Display Success/Failure Message",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Registration Successful",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "34da8363-38ed-4476-8576-a1db83a39f8d",
+            "source": {
+              "cell": "3491fd80-4a9d-424a-876b-f041ed2676be",
+              "port": "2a4398bb-106b-40b7-bd18-f5207945bc37"
+            },
+            "target": {
+              "cell": "7678a9ac-78e9-4742-a1b3-0c819a4bfc59",
+              "port": "0fadd199-a3c2-4a54-908b-e08bae149109"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Display Success/Failure Message",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Display Success/Failure Message",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "5ecbe1ae-8a87-498b-bac6-e9469671b653",
+            "source": {
+              "x": -460,
+              "y": 270
+            },
+            "target": {
+              "cell": "1650f72a-f0a0-4e63-af78-d307d48450ab",
               "port": "9b5335d6-6503-4a37-b10a-4fc158b588ab"
             }
           },
