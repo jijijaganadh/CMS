@@ -874,7 +874,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Response",
+                    "text": "Account Successfully Created\n",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -898,7 +898,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Enter Registration Details",
+              "name": "Enter Registration Details\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1069,7 +1069,13 @@
             "target": {
               "cell": "1650f72a-f0a0-4e63-af78-d307d48450ab",
               "port": "9c79a936-aff3-4b99-a039-1f69bfa28c23"
-            }
+            },
+            "vertices": [
+              {
+                "x": -660,
+                "y": 270
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1102,7 +1108,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Response",
+                    "text": "Account Successfully Created\n",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1126,7 +1132,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Send Verification Email",
+              "name": "Send Verification Email\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1184,7 +1190,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Response",
+                    "text": "Account Successfully Created\n",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1208,7 +1214,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Send Email with Verification Link",
+              "name": "Send Email with Verification Link\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1227,7 +1233,13 @@
             "target": {
               "cell": "7678a9ac-78e9-4742-a1b3-0c819a4bfc59",
               "port": "0fadd199-a3c2-4a54-908b-e08bae149109"
-            }
+            },
+            "vertices": [
+              {
+                "x": -820,
+                "y": 410
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1260,7 +1272,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Response",
+                    "text": "Account Successfully Created\n",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1284,83 +1296,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Response",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "fad9ca4e-9c6e-4cc4-a606-d1e82a30b666",
-            "source": {
-              "x": -56,
-              "y": 250
-            },
-            "target": {
-              "cell": "4734d5e2-241d-44d8-a1e7-3a457ed2813a",
-              "port": "9b5335d6-6503-4a37-b10a-4fc158b588ab"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Response",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Account Successfully Created",
+              "name": "Account Successfully Created\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1379,11 +1315,93 @@
             "target": {
               "cell": "3491fd80-4a9d-424a-876b-f041ed2676be",
               "port": "2aeedcae-02ce-4a04-b31a-be5ec63976da"
+            },
+            "vertices": [
+              {
+                "x": -940,
+                "y": 430
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Account Successfully Created\n",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Account successfully stored",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "f5ebc7a4-a206-4118-a46e-fb892f309705",
+            "source": {
+              "x": -43,
+              "y": 240
+            },
+            "target": {
+              "cell": "4734d5e2-241d-44d8-a1e7-3a457ed2813a",
+              "port": "9b5335d6-6503-4a37-b10a-4fc158b588ab"
             }
           },
           {
             "position": {
-              "x": -555,
+              "x": -540,
               "y": 408
             },
             "size": {
