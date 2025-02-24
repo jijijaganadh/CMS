@@ -716,7 +716,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "User Credentials Successfully Saved",
+                    "text": "Email verification Failure\n",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -898,82 +898,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Enter Registration Details\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "2f1ee6bb-cd65-44cf-a388-9238ef35c51c",
-            "source": {
-              "x": -1190,
-              "y": 160
-            },
-            "target": {
-              "cell": "1650f72a-f0a0-4e63-af78-d307d48450ab",
-              "port": "ba61ed66-2be7-4d4d-868e-f8da630f9445"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Success/Failure Notification",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Send Verification Email\n",
               "description": "",
               "outOfScope": false,
@@ -1032,7 +956,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "User Credentials Successfully Saved",
+                    "text": "Email verification Failure\n",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1372,7 +1296,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Display Success/Failure Message",
+              "name": "Email verification Failure\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1448,7 +1372,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Verification Successful",
+              "name": "Email Verification Successful",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1506,7 +1430,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "User Credentials Successfully Saved",
+                    "text": "Email verification Failure\n",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1588,7 +1512,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "User Credentials Successfully Saved",
+                    "text": "Email verification Failure\n",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1664,7 +1588,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "User Credentials Successfully Saved",
+                    "text": "Email verification Failure\n",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1740,7 +1664,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "User Credentials Successfully Saved",
+                    "text": "Email verification Failure\n",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
