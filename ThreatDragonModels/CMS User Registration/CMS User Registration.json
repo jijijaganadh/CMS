@@ -716,7 +716,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Resend Registration Request",
+                    "text": "User Credentials Successfully Saved",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -950,82 +950,6 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Store Encrypted User Credentials",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Store Encrypted User Credentials",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "031ba383-bd12-49b8-a018-3c6b2a6e9a47",
-            "source": {
-              "x": -402,
-              "y": 125
-            },
-            "target": {
-              "cell": "05117714-6d38-4a47-a713-4075a449a348",
-              "port": "f41f783c-f567-40dc-841d-6258ed6b5c00"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
                     "text": "Success/Failure Notification",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
@@ -1108,7 +1032,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Resend Registration Request",
+                    "text": "User Credentials Successfully Saved",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1582,7 +1506,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Resend Registration Request",
+                    "text": "User Credentials Successfully Saved",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1664,7 +1588,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Resend Registration Request",
+                    "text": "User Credentials Successfully Saved",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1740,7 +1664,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Resend Registration Request",
+                    "text": "User Credentials Successfully Saved",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1783,6 +1707,82 @@
             "target": {
               "cell": "7678a9ac-78e9-4742-a1b3-0c819a4bfc59",
               "port": "0fadd199-a3c2-4a54-908b-e08bae149109"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "User Credentials Successfully Saved",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User Credentials Successfully Saved",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "41695ac8-707a-40ad-b55c-ee9a8042bcb0",
+            "source": {
+              "x": -410,
+              "y": 140
+            },
+            "target": {
+              "cell": "05117714-6d38-4a47-a713-4075a449a348",
+              "port": "f41f783c-f567-40dc-841d-6258ed6b5c00"
             }
           },
           {
