@@ -956,7 +956,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Email verification Failure\n",
+                    "text": "Send Email with Verification Link\n\n\n",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -980,7 +980,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Send Email with Verification Link\n\n",
+              "name": "Send Email with Verification Link\n\n\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1007,6 +1007,10 @@
               },
               {
                 "x": -820,
+                "y": 410
+              },
+              {
+                "x": -850,
                 "y": 410
               }
             ]
