@@ -1095,7 +1095,17 @@
                 "x": -940,
                 "y": 430
               }
-            ]
+            ],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           },
           {
             "shape": "flow",
@@ -1171,82 +1181,6 @@
             "target": {
               "cell": "4734d5e2-241d-44d8-a1e7-3a457ed2813a",
               "port": "9b5335d6-6503-4a37-b10a-4fc158b588ab"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Success/Failure Notification",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Registration Successful",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "34da8363-38ed-4476-8576-a1db83a39f8d",
-            "source": {
-              "cell": "3491fd80-4a9d-424a-876b-f041ed2676be",
-              "port": "2a4398bb-106b-40b7-bd18-f5207945bc37"
-            },
-            "target": {
-              "cell": "7678a9ac-78e9-4742-a1b3-0c819a4bfc59",
-              "port": "0fadd199-a3c2-4a54-908b-e08bae149109"
             }
           },
           {
@@ -1724,6 +1658,82 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Success Notification",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Success Notification",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "5e2a019c-7059-4df0-90fc-07729bbc49ac",
+            "source": {
+              "x": -1180,
+              "y": 240
+            },
+            "target": {
+              "x": -1140,
+              "y": 530
+            }
+          },
+          {
             "position": {
               "x": -540,
               "y": 408
@@ -1879,8 +1889,8 @@
           },
           {
             "position": {
-              "x": -1260,
-              "y": 480
+              "x": -1200,
+              "y": 520
             },
             "size": {
               "width": 190,
@@ -2017,6 +2027,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -2100,7 +2111,6 @@
               ]
             },
             "id": "5b743ab4-fcd2-4244-bcdb-9f2dbeef97d1",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "Failure",
