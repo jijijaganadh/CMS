@@ -346,7 +346,7 @@
           },
           {
             "position": {
-              "x": -525,
+              "x": -540,
               "y": 70
             },
             "size": {
@@ -816,82 +816,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Send Verification Email",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "9059ed48-cd28-4711-839a-08b4a5d9baa4",
-            "source": {
-              "x": -440,
-              "y": 270
-            },
-            "target": {
-              "cell": "b9f371f8-5bad-4b23-aa2c-55d57a998f95",
-              "port": "2a4398bb-106b-40b7-bd18-f5207945bc37"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Verify Email & Activate Account",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Send Email with Verification Link",
               "description": "",
               "outOfScope": false,
@@ -1096,7 +1020,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Display Success/Failure Message",
+                    "text": "Send Verification Email",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1248,7 +1172,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Display Success/Failure Message",
+                    "text": "Send Verification Email",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1291,7 +1215,99 @@
             "target": {
               "cell": "1650f72a-f0a0-4e63-af78-d307d48450ab",
               "port": "9c79a936-aff3-4b99-a039-1f69bfa28c23"
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "labels": [
+              {
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "attrs": {
+                  "labelText": {
+                    "text": "Send Verification Email",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
+            ],
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send Verification Email",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "id": "1826355d-53c2-4f5d-a85d-77596258401f",
+            "source": {
+              "x": -440,
+              "y": 260
+            },
+            "target": {
+              "cell": "b9f371f8-5bad-4b23-aa2c-55d57a998f95",
+              "port": "2a4398bb-106b-40b7-bd18-f5207945bc37"
+            },
+            "vertices": [
+              {
+                "x": -360,
+                "y": 360
+              }
+            ]
           },
           {
             "position": {
