@@ -1,5 +1,5 @@
 {
-  "version": "2.3.0",
+  "version": "2.4.0",
   "summary": {
     "title": "CMS User Registration",
     "owner": "jiji",
@@ -15,7 +15,7 @@
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
-        "version": "2.3.0",
+        "version": "2.4.0",
         "cells": [
           {
             "position": {
@@ -716,7 +716,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Verify Email & Activate Account",
+                    "text": "Reg \nUser details",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -740,7 +740,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Verify Email & Activate Account",
+              "name": "Reg \nUser details",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -751,733 +751,7 @@
               "protocol": "",
               "threats": []
             },
-            "id": "09838797-0eaa-4172-9ad2-6a9fea6914d8",
-            "source": {
-              "x": -1224,
-              "y": 160
-            },
-            "target": {
-              "cell": "4734d5e2-241d-44d8-a1e7-3a457ed2813a",
-              "port": "71492cf2-9c47-433c-92b7-fd044e80a9db"
-            },
-            "vertices": [
-              {
-                "x": -790,
-                "y": 30
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Success/Failure Notification",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Send Verification Email\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "1826355d-53c2-4f5d-a85d-77596258401f",
-            "source": {
-              "x": -260,
-              "y": 240
-            },
-            "target": {
-              "cell": "b9f371f8-5bad-4b23-aa2c-55d57a998f95",
-              "port": "2a4398bb-106b-40b7-bd18-f5207945bc37"
-            },
-            "vertices": [
-              {
-                "x": -180,
-                "y": 340
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Email Verification Failed",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Send Email with Verification Link\n\n\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "8359cbab-a68a-4a1d-a9c1-2c7aa01f6314",
-            "source": {
-              "x": -462,
-              "y": 578
-            },
-            "target": {
-              "cell": "7678a9ac-78e9-4742-a1b3-0c819a4bfc59",
-              "port": "0fadd199-a3c2-4a54-908b-e08bae149109"
-            },
-            "vertices": [
-              {
-                "x": -660,
-                "y": 480
-              },
-              {
-                "x": -820,
-                "y": 410
-              },
-              {
-                "x": -850,
-                "y": 410
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Success/Failure Notification",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Account successfully stored",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "f5ebc7a4-a206-4118-a46e-fb892f309705",
-            "source": {
-              "x": -43,
-              "y": 240
-            },
-            "target": {
-              "cell": "4734d5e2-241d-44d8-a1e7-3a457ed2813a",
-              "port": "9b5335d6-6503-4a37-b10a-4fc158b588ab"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Verification Successful",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Email Verification Successful",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "73dd71e7-465e-444f-88bd-cd139167a318",
-            "source": {
-              "x": -470,
-              "y": 271
-            },
-            "target": {
-              "cell": "1650f72a-f0a0-4e63-af78-d307d48450ab",
-              "port": "9c79a936-aff3-4b99-a039-1f69bfa28c23"
-            },
-            "vertices": [
-              {
-                "x": -650,
-                "y": 271
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Email verification Failure\n",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Verification Failed",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "b65ee59f-90ca-4258-a379-74afff6a77eb",
-            "source": {
-              "x": -510,
-              "y": 300
-            },
-            "target": {
-              "cell": "5b743ab4-fcd2-4244-bcdb-9f2dbeef97d1",
-              "port": "a564599d-be3b-4515-85bd-e1d58d4a346d"
-            },
-            "vertices": [
-              {
-                "x": -640,
-                "y": 380
-              },
-              {
-                "x": -650,
-                "y": 390
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Email Verification Failed",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Save User Credentials\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "41695ac8-707a-40ad-b55c-ee9a8042bcb0",
-            "source": {
-              "x": -410,
-              "y": 140
-            },
-            "target": {
-              "cell": "05117714-6d38-4a47-a713-4075a449a348",
-              "port": "f41f783c-f567-40dc-841d-6258ed6b5c00"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Email Verification Failed",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Registration Success Notification",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "5e2a019c-7059-4df0-90fc-07729bbc49ac",
-            "source": {
-              "x": -1180,
-              "y": 240
-            },
-            "target": {
-              "x": -1140,
-              "y": 530
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Email Verification Failed",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Sucess notification",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "56ae9d5b-0a4c-465e-9720-5b576271cde9",
-            "source": {
-              "x": -820,
-              "y": 295
-            },
-            "target": {
-              "cell": "3491fd80-4a9d-424a-876b-f041ed2676be",
-              "port": "2a4398bb-106b-40b7-bd18-f5207945bc37"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "labels": [
-              {
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "attrs": {
-                  "labelText": {
-                    "text": "Email Verification Failed",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Submit Registration Request",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "id": "c95d3b90-eba9-4701-8ff7-0aec5c93d055",
+            "id": "90d0af92-29ad-4c1e-a0d4-9d7063729b74",
             "source": {
               "x": -1190,
               "y": 160
@@ -1518,7 +792,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Email Verification Failed",
+                    "text": "Submit OTP for Verification",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1542,7 +816,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Verification Failure",
+              "name": "Submit OTP for Verification",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1553,14 +827,14 @@
               "protocol": "",
               "threats": []
             },
-            "id": "bceb634b-c7e5-4373-b598-b28ee27050a1",
+            "id": "913c9ea4-95b3-4e98-8905-176c494043c3",
             "source": {
-              "x": -777,
-              "y": 490
+              "x": -1190,
+              "y": 240
             },
             "target": {
-              "cell": "7678a9ac-78e9-4742-a1b3-0c819a4bfc59",
-              "port": "0fadd199-a3c2-4a54-908b-e08bae149109"
+              "cell": "1650f72a-f0a0-4e63-af78-d307d48450ab",
+              "port": "9c79a936-aff3-4b99-a039-1f69bfa28c23"
             }
           },
           {
@@ -1594,7 +868,7 @@
                 ],
                 "attrs": {
                   "labelText": {
-                    "text": "Email Verification Failed",
+                    "text": "Submit Form",
                     "textAnchor": "middle",
                     "textVerticalAnchor": "middle"
                   },
@@ -1618,7 +892,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Email Verification Failed",
+              "name": "Submit Form",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1629,26 +903,20 @@
               "protocol": "",
               "threats": []
             },
-            "id": "c5a6c3a7-5080-4499-9b44-11fa32472468",
+            "id": "f55e358b-23ae-4b49-8da7-830c7d31264a",
             "source": {
-              "x": -240,
-              "y": 380
+              "x": -811,
+              "y": 105
             },
             "target": {
-              "cell": "7678a9ac-78e9-4742-a1b3-0c819a4bfc59",
-              "port": "0fadd199-a3c2-4a54-908b-e08bae149109"
-            },
-            "vertices": [
-              {
-                "x": -740,
-                "y": 300
-              }
-            ]
+              "cell": "4734d5e2-241d-44d8-a1e7-3a457ed2813a",
+              "port": "71492cf2-9c47-433c-92b7-fd044e80a9db"
+            }
           },
           {
             "position": {
-              "x": -340,
-              "y": 370
+              "x": -320,
+              "y": 300
             },
             "size": {
               "width": 160,
@@ -1797,244 +1065,6 @@
                 "denialOfService": 1,
                 "elevationOfPrivilege": 0
               }
-            }
-          },
-          {
-            "position": {
-              "x": -1200,
-              "y": 520
-            },
-            "size": {
-              "width": 190,
-              "height": 160
-            },
-            "attrs": {
-              "text": {
-                "text": "Success"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 12,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "2a4398bb-106b-40b7-bd18-f5207945bc37"
-                },
-                {
-                  "group": "right",
-                  "id": "2aeedcae-02ce-4a04-b31a-be5ec63976da"
-                },
-                {
-                  "group": "bottom",
-                  "id": "c4fb862a-18c8-4199-a760-52e6dd9edc43"
-                },
-                {
-                  "group": "left",
-                  "id": "e37dbbd4-77c0-44da-905b-87ad61a49c3e"
-                }
-              ]
-            },
-            "id": "3491fd80-4a9d-424a-876b-f041ed2676be",
-            "data": {
-              "type": "tm.Process",
-              "name": "Success",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": -860,
-              "y": 490
-            },
-            "size": {
-              "width": 160,
-              "height": 150
-            },
-            "attrs": {
-              "text": {
-                "text": "Failure"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 13,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "a564599d-be3b-4515-85bd-e1d58d4a346d"
-                },
-                {
-                  "group": "right",
-                  "id": "25277a48-4bd2-41a2-8c17-e7259351dafd"
-                },
-                {
-                  "group": "bottom",
-                  "id": "0010b794-5d72-49f9-84bc-d871dee72944"
-                },
-                {
-                  "group": "left",
-                  "id": "d2fda55c-f599-4bb8-8217-3f3522c1d738"
-                }
-              ]
-            },
-            "id": "5b743ab4-fcd2-4244-bcdb-9f2dbeef97d1",
-            "data": {
-              "type": "tm.Process",
-              "name": "Failure",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
             }
           }
         ]
