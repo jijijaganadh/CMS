@@ -1052,6 +1052,50 @@
             }
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Deliver OTP via Email/SMS",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Deliver OTP via Email/SMS"
+            ],
+            "id": "29b02083-52b6-48ce-8851-828b6a13dd61",
+            "source": {
+              "x": -799,
+              "y": 275
+            },
+            "target": {
+              "cell": "7678a9ac-78e9-4742-a1b3-0c819a4bfc59",
+              "port": "8a68b918-c97c-49b5-b342-085170922874"
+            }
+          },
+          {
             "position": {
               "x": -310,
               "y": 330
