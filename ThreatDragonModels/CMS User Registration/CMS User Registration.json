@@ -705,7 +705,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Reg \nUser details",
+              "name": "Provide Registration Details",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -717,42 +717,7 @@
               "threats": []
             },
             "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  },
-                  "labelText": {
-                    "text": "Reg \nUser details",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
+              "Provide Registration Details"
             ],
             "id": "90d0af92-29ad-4c1e-a0d4-9d7063729b74",
             "source": {
@@ -762,7 +727,13 @@
             "target": {
               "cell": "1650f72a-f0a0-4e63-af78-d307d48450ab",
               "port": "ba61ed66-2be7-4d4d-868e-f8da630f9445"
-            }
+            },
+            "vertices": [
+              {
+                "x": -940,
+                "y": 110
+              }
+            ]
           },
           {
             "shape": "flow",
