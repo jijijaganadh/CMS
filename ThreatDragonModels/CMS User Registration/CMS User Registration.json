@@ -1044,7 +1044,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Registration Status (Success/Failure)",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1056,17 +1056,23 @@
               "threats": []
             },
             "labels": [
-              "Data Flow"
+              "Registration Status (Success/Failure)"
             ],
-            "id": "75e52145-a45e-4147-ab23-f2f449b1c26d",
+            "id": "5d79d5cd-290b-4836-8171-f95bc79ab9de",
             "source": {
-              "x": 35,
-              "y": 240
+              "x": 54,
+              "y": 230
             },
             "target": {
               "cell": "4734d5e2-241d-44d8-a1e7-3a457ed2813a",
               "port": "9b5335d6-6503-4a37-b10a-4fc158b588ab"
-            }
+            },
+            "vertices": [
+              {
+                "x": -170,
+                "y": 250
+              }
+            ]
           }
         ]
       }
