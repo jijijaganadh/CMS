@@ -940,7 +940,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Active Account\n",
+              "name": "Activate User Account\n\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -952,7 +952,7 @@
               "threats": []
             },
             "labels": [
-              "Active Account\n"
+              "Activate User Account\n\n"
             ],
             "id": "fb250643-e228-47f8-988a-e03b5eb3dee9",
             "source": {
