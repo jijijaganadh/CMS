@@ -355,7 +355,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Authentication Service"
+                "text": "Validation\n Service"
               },
               "body": {
                 "stroke": "red",
@@ -451,7 +451,7 @@
             "id": "4734d5e2-241d-44d8-a1e7-3a457ed2813a",
             "data": {
               "type": "tm.Process",
-              "name": "Authentication Service",
+              "name": "Validation\n Service",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -762,7 +762,13 @@
             "target": {
               "cell": "1650f72a-f0a0-4e63-af78-d307d48450ab",
               "port": "ba61ed66-2be7-4d4d-868e-f8da630f9445"
-            }
+            },
+            "vertices": [
+              {
+                "x": -980,
+                "y": 90
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -784,7 +790,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Submit OTP for Verification",
+              "name": "Enter OTP for Verification",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -796,42 +802,7 @@
               "threats": []
             },
             "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  },
-                  "labelText": {
-                    "text": "Submit OTP for Verification",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
+              "Enter OTP for Verification"
             ],
             "id": "913c9ea4-95b3-4e98-8905-176c494043c3",
             "source": {
@@ -841,7 +812,13 @@
             "target": {
               "cell": "1650f72a-f0a0-4e63-af78-d307d48450ab",
               "port": "9c79a936-aff3-4b99-a039-1f69bfa28c23"
-            }
+            },
+            "vertices": [
+              {
+                "x": -990,
+                "y": 310
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -924,7 +901,7 @@
             "vertices": [
               {
                 "x": -210,
-                "y": 155
+                "y": 120
               }
             ]
           },
@@ -970,7 +947,13 @@
             "target": {
               "cell": "1650f72a-f0a0-4e63-af78-d307d48450ab",
               "port": "9c79a936-aff3-4b99-a039-1f69bfa28c23"
-            }
+            },
+            "vertices": [
+              {
+                "x": -560,
+                "y": 310
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1049,7 +1032,13 @@
             "target": {
               "cell": "4734d5e2-241d-44d8-a1e7-3a457ed2813a",
               "port": "71492cf2-9c47-433c-92b7-fd044e80a9db"
-            }
+            },
+            "vertices": [
+              {
+                "x": -620,
+                "y": 120
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -1071,7 +1060,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Sucess/failure\n",
+              "name": "Success/Failure\n\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1083,7 +1072,7 @@
               "threats": []
             },
             "labels": [
-              "Sucess/failure\n"
+              "Success/Failure\n\n"
             ],
             "id": "56bdf024-14b7-4034-b718-08f9b9dd2997",
             "source": {
@@ -1093,7 +1082,13 @@
             "target": {
               "x": -420,
               "y": 260
-            }
+            },
+            "vertices": [
+              {
+                "x": -220,
+                "y": 290
+              }
+            ]
           }
         ]
       }
