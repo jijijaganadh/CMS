@@ -784,7 +784,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Enter OTP for Verification",
+              "name": "Submit OTP for Verification",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -796,7 +796,7 @@
               "threats": []
             },
             "labels": [
-              "Enter OTP for Verification"
+              "Submit OTP for Verification"
             ],
             "id": "913c9ea4-95b3-4e98-8905-176c494043c3",
             "source": {
