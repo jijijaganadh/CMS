@@ -990,60 +990,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Enter OTP for Verification",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Enter OTP for Verification"
-            ],
-            "id": "ca902750-3083-477e-a134-62841237211f",
-            "source": {
-              "x": -480,
-              "y": 270
-            },
-            "target": {
-              "cell": "7678a9ac-78e9-4742-a1b3-0c819a4bfc59",
-              "port": "0fadd199-a3c2-4a54-908b-e08bae149109"
-            },
-            "vertices": [
-              {
-                "x": -580,
-                "y": 330
-              },
-              {
-                "x": -820,
-                "y": 400
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Submit Registration Request",
               "description": "",
               "outOfScope": false,
@@ -1071,6 +1017,60 @@
               {
                 "x": -630,
                 "y": 120
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Validate OTP\n",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Validate OTP\n"
+            ],
+            "id": "ca902750-3083-477e-a134-62841237211f",
+            "source": {
+              "x": -480,
+              "y": 270
+            },
+            "target": {
+              "cell": "7678a9ac-78e9-4742-a1b3-0c819a4bfc59",
+              "port": "0fadd199-a3c2-4a54-908b-e08bae149109"
+            },
+            "vertices": [
+              {
+                "x": -580,
+                "y": 330
+              },
+              {
+                "x": -820,
+                "y": 400
               }
             ]
           }
