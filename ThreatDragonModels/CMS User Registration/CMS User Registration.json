@@ -1048,56 +1048,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Return Registration Status",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Return Registration Status"
-            ],
-            "id": "63499210-a750-4769-b498-681393dd6d13",
-            "source": {
-              "x": -462,
-              "y": 270
-            },
-            "target": {
-              "cell": "1650f72a-f0a0-4e63-af78-d307d48450ab",
-              "port": "9c79a936-aff3-4b99-a039-1f69bfa28c23"
-            },
-            "vertices": [
-              {
-                "x": -550,
-                "y": 330
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Active Account\n",
               "description": "",
               "outOfScope": false,
@@ -1125,6 +1075,60 @@
               {
                 "x": -380,
                 "y": 30
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Enter OTP for Verification",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Enter OTP for Verification"
+            ],
+            "id": "ca902750-3083-477e-a134-62841237211f",
+            "source": {
+              "x": -480,
+              "y": 270
+            },
+            "target": {
+              "cell": "7678a9ac-78e9-4742-a1b3-0c819a4bfc59",
+              "port": "0fadd199-a3c2-4a54-908b-e08bae149109"
+            },
+            "vertices": [
+              {
+                "x": -580,
+                "y": 330
+              },
+              {
+                "x": -820,
+                "y": 400
               }
             ]
           }
