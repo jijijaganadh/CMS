@@ -890,85 +890,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Submit Form",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  },
-                  "labelText": {
-                    "text": "Submit Form",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "id": "f55e358b-23ae-4b49-8da7-830c7d31264a",
-            "source": {
-              "cell": "1650f72a-f0a0-4e63-af78-d307d48450ab",
-              "port": "ba61ed66-2be7-4d4d-868e-f8da630f9445"
-            },
-            "target": {
-              "cell": "4734d5e2-241d-44d8-a1e7-3a457ed2813a",
-              "port": "71492cf2-9c47-433c-92b7-fd044e80a9db"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Success/Failure\n\n",
               "description": "",
               "outOfScope": false,
@@ -1100,6 +1021,56 @@
               {
                 "x": -820,
                 "y": 400
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Submit Registration Request",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Submit Registration Request"
+            ],
+            "id": "471d644b-fa8c-4263-8d58-e6cbe1cd7524",
+            "source": {
+              "x": -748,
+              "y": 140
+            },
+            "target": {
+              "x": -500,
+              "y": 120
+            },
+            "vertices": [
+              {
+                "x": -630,
+                "y": 120
               }
             ]
           }
