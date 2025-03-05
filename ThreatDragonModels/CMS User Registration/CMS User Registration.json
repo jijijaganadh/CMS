@@ -529,8 +529,8 @@
           },
           {
             "position": {
-              "x": -50,
-              "y": 155
+              "x": -40,
+              "y": 140
             },
             "size": {
               "width": 150,
@@ -890,56 +890,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Registration Status (Success/Failure)\n\n",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Registration Status (Success/Failure)\n\n"
-            ],
-            "id": "56bdf024-14b7-4034-b718-08f9b9dd2997",
-            "source": {
-              "x": -49,
-              "y": 250
-            },
-            "target": {
-              "x": -420,
-              "y": 260
-            },
-            "vertices": [
-              {
-                "x": -160,
-                "y": 290
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Activate User Account\n\n",
               "description": "",
               "outOfScope": false,
@@ -1073,6 +1023,50 @@
                 "y": 400
               }
             ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "75e52145-a45e-4147-ab23-f2f449b1c26d",
+            "source": {
+              "x": 35,
+              "y": 240
+            },
+            "target": {
+              "cell": "4734d5e2-241d-44d8-a1e7-3a457ed2813a",
+              "port": "9b5335d6-6503-4a37-b10a-4fc158b588ab"
+            }
           }
         ]
       }
