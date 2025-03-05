@@ -890,7 +890,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Success/Failure\n\n",
+              "name": "Registration Status (Success/Failure)\n\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -902,7 +902,7 @@
               "threats": []
             },
             "labels": [
-              "Success/Failure\n\n"
+              "Registration Status (Success/Failure)\n\n"
             ],
             "id": "56bdf024-14b7-4034-b718-08f9b9dd2997",
             "source": {
