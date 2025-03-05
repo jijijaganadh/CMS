@@ -312,19 +312,6 @@
                   "score": "16"
                 },
                 {
-                  "id": "667aea03-f3db-46fc-bf3f-95b1345b835a",
-                  "title": "Tampering",
-                  "status": "Open",
-                  "severity": "Critical",
-                  "type": "Spoofing",
-                  "description": "SQL Injection & XSS",
-                  "mitigation": "Use input validation and prepared statements.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 2,
-                  "score": "16"
-                },
-                {
                   "id": "4df59fd1-8292-4f8d-b1ed-e88b83b0d5fc",
                   "title": "Repudiation",
                   "status": "Open",
@@ -339,9 +326,16 @@
                 }
               ],
               "threatFrequency": {
-                "spoofing": 2,
+                "spoofing": 1,
                 "repudiation": 1
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
