@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": -910,
-              "y": 105
+              "x": -850,
+              "y": 140
             },
             "size": {
               "width": 200,
@@ -863,85 +863,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Submit Form",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              {
-                "attrs": {
-                  "label": {
-                    "text": "Data Flow"
-                  },
-                  "labelText": {
-                    "text": "Submit Form",
-                    "textAnchor": "middle",
-                    "textVerticalAnchor": "middle"
-                  },
-                  "labelBody": {
-                    "ref": "labelText",
-                    "refRx": "50%",
-                    "refRy": "60%",
-                    "fill": "#fff",
-                    "strokeWidth": 0
-                  }
-                },
-                "markup": [
-                  {
-                    "tagName": "ellipse",
-                    "selector": "labelBody"
-                  },
-                  {
-                    "tagName": "text",
-                    "selector": "labelText"
-                  }
-                ],
-                "position": {
-                  "distance": 0.5,
-                  "args": {
-                    "keepGradient": true,
-                    "ensureLegibility": true
-                  }
-                }
-              }
-            ],
-            "id": "f55e358b-23ae-4b49-8da7-830c7d31264a",
-            "source": {
-              "x": -811,
-              "y": 105
-            },
-            "target": {
-              "cell": "4734d5e2-241d-44d8-a1e7-3a457ed2813a",
-              "port": "71492cf2-9c47-433c-92b7-fd044e80a9db"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Store User Credentials Securely",
               "description": "",
               "outOfScope": false,
@@ -1071,7 +992,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Deliver OTP via Email/SMS",
+              "name": "Submit Form",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
@@ -1083,170 +1004,95 @@
               "threats": []
             },
             "labels": [
-              "Deliver OTP via Email/SMS"
+              {
+                "attrs": {
+                  "label": {
+                    "text": "Data Flow"
+                  },
+                  "labelText": {
+                    "text": "Submit Form",
+                    "textAnchor": "middle",
+                    "textVerticalAnchor": "middle"
+                  },
+                  "labelBody": {
+                    "ref": "labelText",
+                    "refRx": "50%",
+                    "refRy": "60%",
+                    "fill": "#fff",
+                    "strokeWidth": 0
+                  }
+                },
+                "markup": [
+                  {
+                    "tagName": "ellipse",
+                    "selector": "labelBody"
+                  },
+                  {
+                    "tagName": "text",
+                    "selector": "labelText"
+                  }
+                ],
+                "position": {
+                  "distance": 0.5,
+                  "args": {
+                    "keepGradient": true,
+                    "ensureLegibility": true
+                  }
+                }
+              }
             ],
-            "id": "29b02083-52b6-48ce-8851-828b6a13dd61",
+            "id": "f55e358b-23ae-4b49-8da7-830c7d31264a",
             "source": {
-              "x": -799,
-              "y": 275
+              "cell": "1650f72a-f0a0-4e63-af78-d307d48450ab",
+              "port": "ba61ed66-2be7-4d4d-868e-f8da630f9445"
             },
             "target": {
-              "cell": "7678a9ac-78e9-4742-a1b3-0c819a4bfc59",
-              "port": "8a68b918-c97c-49b5-b342-085170922874"
+              "cell": "4734d5e2-241d-44d8-a1e7-3a457ed2813a",
+              "port": "71492cf2-9c47-433c-92b7-fd044e80a9db"
             }
           },
           {
-            "position": {
-              "x": -310,
-              "y": 330
-            },
-            "size": {
-              "width": 160,
-              "height": 170
-            },
+            "shape": "flow",
             "attrs": {
-              "text": {
-                "text": " Email Service"
-              },
-              "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
                 "strokeDasharray": null
               }
             },
-            "visible": true,
-            "shape": "process",
-            "zIndex": 11,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "2a4398bb-106b-40b7-bd18-f5207945bc37"
-                },
-                {
-                  "group": "right",
-                  "id": "2aeedcae-02ce-4a04-b31a-be5ec63976da"
-                },
-                {
-                  "group": "bottom",
-                  "id": "c4fb862a-18c8-4199-a760-52e6dd9edc43"
-                },
-                {
-                  "group": "left",
-                  "id": "e37dbbd4-77c0-44da-905b-87ad61a49c3e"
-                }
-              ]
-            },
-            "id": "b9f371f8-5bad-4b23-aa2c-55d57a998f95",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
             "data": {
-              "type": "tm.Process",
-              "name": " Email Service",
+              "type": "tm.Flow",
+              "name": "Sucess/failure\n",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": [
-                {
-                  "id": "3490d365-9e80-4b66-a194-cbf938e6e3d9",
-                  "title": "Information Disclosure",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Information disclosure",
-                  "description": "Email Interception (Man-in-the-Middle Attack)",
-                  "mitigation": "Use TLS for email transmission (SMTP over TLS).",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 9,
-                  "score": "16"
-                },
-                {
-                  "id": "5e48456b-a442-4ced-ae50-8d6d661d3cfa",
-                  "title": "Denial of Service",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Denial of service",
-                  "description": "Email Bombing (Flooding with Verification Emails)",
-                  "mitigation": "Implement rate-limiting and email cooldowns.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 10,
-                  "score": "15"
-                }
-              ],
-              "threatFrequency": {
-                "spoofing": 0,
-                "tampering": 0,
-                "repudiation": 0,
-                "informationDisclosure": 1,
-                "denialOfService": 1,
-                "elevationOfPrivilege": 0
-              }
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Sucess/failure\n"
+            ],
+            "id": "56bdf024-14b7-4034-b718-08f9b9dd2997",
+            "source": {
+              "x": -49,
+              "y": 250
+            },
+            "target": {
+              "x": -420,
+              "y": 260
             }
           }
         ]
